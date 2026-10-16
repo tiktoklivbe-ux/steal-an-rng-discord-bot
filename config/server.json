@@ -1,0 +1,2647 @@
+{
+  "name": "Steal an RNG 🎲 | Halloween",
+  "description": "Roll legendary abilities. Defend your base. Steal the impossible. Official Steal an RNG community by stefunkwn — Halloween season 🎃",
+  "game": {
+    "placeId": "89881575589403",
+    "url": "https://www.roblox.com/games/89881575589403",
+    "owner": "stefunkwn",
+    "statsIntervalMinutes": 5,
+    "leaderboardExport": "data/game-leaderboard.json"
+  },
+  "theme": {
+    "color": "#FF2878",
+    "secondary": "#FF9B30",
+    "footer": "Steal an RNG • Roll. Raid. Rebirth. 🎃"
+  },
+  "setup": {
+    "delayMs": 300,
+    "enableCommunity": true,
+    "enableOnboarding": false,
+    "registerCommands": true
+  },
+  "staffRoles": [
+    "owner",
+    "developer",
+    "admin",
+    "moderator",
+    "support"
+  ],
+  "eventStaffRoles": [
+    "owner",
+    "developer",
+    "admin",
+    "moderator",
+    "content-team"
+  ],
+  "roles": [
+    {
+      "key": "owner",
+      "name": "👑 Owner",
+      "color": "#FFC83C",
+      "permissions": [
+        "Administrator"
+      ],
+      "hoist": true,
+      "mentionable": false
+    },
+    {
+      "key": "developer",
+      "name": "🛠️ Developer",
+      "color": "#45DEFF",
+      "permissions": [
+        "ManageGuild",
+        "ManageChannels",
+        "ManageMessages"
+      ],
+      "hoist": true,
+      "mentionable": false
+    },
+    {
+      "key": "admin",
+      "name": "🛡️ Admin",
+      "color": "#FF3030",
+      "permissions": [
+        "Administrator"
+      ],
+      "hoist": true,
+      "mentionable": false
+    },
+    {
+      "key": "moderator",
+      "name": "🔨 Moderator",
+      "color": "#9855E8",
+      "permissions": [
+        "ModerateMembers",
+        "KickMembers",
+        "BanMembers",
+        "ManageMessages",
+        "ManageThreads"
+      ],
+      "hoist": true,
+      "mentionable": false
+    },
+    {
+      "key": "support",
+      "name": "🎟️ Support",
+      "color": "#43C5A5",
+      "permissions": [],
+      "hoist": true,
+      "mentionable": false
+    },
+    {
+      "key": "content-team",
+      "name": "🎬 Content Team",
+      "color": "#ED75C8",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "bots",
+      "name": "🤖 Bots",
+      "color": "#5865F2",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "admin-tier",
+      "name": "Admin-only",
+      "color": "#FF3030",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "booster",
+      "name": "💎 Server Booster",
+      "color": "#F47FFF",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "creator",
+      "name": "🎥 Content Creator",
+      "color": "#F59A59",
+      "permissions": [],
+      "hoist": true,
+      "mentionable": false
+    },
+    {
+      "key": "winner",
+      "name": "🏆 Event Winner",
+      "color": "#FFC83C",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "beta",
+      "name": "⭐ Beta Tester",
+      "color": "#67DCA4",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "bug-hunter",
+      "name": "🧪 Bug Hunter",
+      "color": "#42CABC",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "omega",
+      "name": "OMEGA",
+      "color": "#FF2878",
+      "permissions": [],
+      "hoist": true,
+      "mentionable": false
+    },
+    {
+      "key": "absolute",
+      "name": "Absolute",
+      "color": "#FFD1ED",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "forbidden",
+      "name": "Forbidden",
+      "color": "#F1F1FF",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "celestial",
+      "name": "Celestial",
+      "color": "#45DEFF",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "divine",
+      "name": "Divine",
+      "color": "#FFF0BD",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "mythic",
+      "name": "Mythic",
+      "color": "#BE1648",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "legendary",
+      "name": "Legendary",
+      "color": "#FFC83C",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "ascended",
+      "name": "Ascended",
+      "color": "#9855E8",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "awakened",
+      "name": "Awakened",
+      "color": "#F25C78",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "forged",
+      "name": "Forged",
+      "color": "#CB7948",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "street",
+      "name": "Street",
+      "color": "#80858F",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "verified",
+      "name": "✅ Verified",
+      "color": "#46C985",
+      "permissions": [
+        "ViewChannel",
+        "ReadMessageHistory",
+        "SendMessages",
+        "AddReactions",
+        "AttachFiles",
+        "EmbedLinks",
+        "UseApplicationCommands",
+        "SendMessagesInThreads",
+        "CreatePublicThreads",
+        "Connect",
+        "Speak",
+        "UseVAD"
+      ],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "muted",
+      "name": "🔇 Muted",
+      "color": "#595B63",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "update-pings",
+      "name": "📢 Update Pings",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "event-pings",
+      "name": "🎉 Event Pings",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "giveaway-pings",
+      "name": "🎁 Giveaway Pings",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "code-pings",
+      "name": "🔑 Code Pings",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "witching-pings",
+      "name": "👹 Witching Hour Pings",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "boss-pings",
+      "name": "🦍 Boss Pings",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "pc",
+      "name": "💻 PC",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "mobile",
+      "name": "📱 Mobile",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "console",
+      "name": "🎮 Console",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "na",
+      "name": "NA",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "eu",
+      "name": "EU",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "asia",
+      "name": "ASIA",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "oce",
+      "name": "OCE",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    },
+    {
+      "key": "sa",
+      "name": "SA",
+      "color": "#A3A8B5",
+      "permissions": [],
+      "hoist": false,
+      "mentionable": false
+    }
+  ],
+  "categories": [
+    {
+      "key": "start",
+      "name": "🚪 START HERE",
+      "policy": "start"
+    },
+    {
+      "key": "info",
+      "name": "📢 INFO",
+      "policy": "readonly"
+    },
+    {
+      "key": "community",
+      "name": "💬 COMMUNITY",
+      "policy": "public"
+    },
+    {
+      "key": "game",
+      "name": "🎲 GAME",
+      "policy": "public"
+    },
+    {
+      "key": "feedback",
+      "name": "💡 FEEDBACK",
+      "policy": "public"
+    },
+    {
+      "key": "support-category",
+      "name": "🎫 SUPPORT",
+      "policy": "readonly"
+    },
+    {
+      "key": "tickets",
+      "name": "🎫 TICKETS",
+      "policy": "tickets"
+    },
+    {
+      "key": "creators",
+      "name": "🎥 CREATORS",
+      "policy": "public"
+    },
+    {
+      "key": "voice",
+      "name": "🔊 VOICE",
+      "policy": "public"
+    },
+    {
+      "key": "staff",
+      "name": "🔒 STAFF",
+      "policy": "staff"
+    },
+    {
+      "key": "archive",
+      "name": "📦 ARCHIVE",
+      "policy": "archive"
+    }
+  ],
+  "channels": [
+    {
+      "key": "welcome",
+      "name": "👋・welcome",
+      "parent": "start",
+      "type": "text",
+      "policy": "start",
+      "slowmode": 0,
+      "topic": "welcome • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "rules",
+      "name": "📜・rules",
+      "parent": "start",
+      "type": "text",
+      "policy": "start",
+      "slowmode": 0,
+      "topic": "rules • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "verify",
+      "name": "✅・verify",
+      "parent": "start",
+      "type": "text",
+      "policy": "start",
+      "slowmode": 0,
+      "topic": "verify • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "roles",
+      "name": "🎭・roles",
+      "parent": "start",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "roles • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "faq",
+      "name": "❓・faq",
+      "parent": "start",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "faq • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "server-guide",
+      "name": "🧭・server-guide",
+      "parent": "start",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "server guide • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "announcements",
+      "name": "📢・announcements",
+      "parent": "info",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "announcements • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "updates",
+      "name": "🛠️・patch-notes",
+      "parent": "info",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "patch notes • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "sneak-peeks",
+      "name": "👀・sneak-peeks",
+      "parent": "info",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "sneak peeks • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "events",
+      "name": "📅・events",
+      "parent": "info",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "events • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "codes",
+      "name": "🎟️・codes",
+      "parent": "info",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "codes • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "giveaways",
+      "name": "🎁・giveaways",
+      "parent": "info",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "giveaways • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "polls",
+      "name": "📊・polls",
+      "parent": "info",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "polls • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "status",
+      "name": "🟢・status",
+      "parent": "info",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "status • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "general",
+      "name": "💬・general",
+      "parent": "community",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 3,
+      "topic": "general • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "media",
+      "name": "📷・media",
+      "parent": "community",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "media • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "memes",
+      "name": "😂・memes",
+      "parent": "community",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "memes • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "off-topic",
+      "name": "☕・off-topic",
+      "parent": "community",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "off topic • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "bot-commands",
+      "name": "🤖・bot-commands",
+      "parent": "community",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "bot commands • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "counting",
+      "name": "🔢・counting",
+      "parent": "community",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "counting • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "introductions",
+      "name": "🙋・introductions",
+      "parent": "community",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "introductions • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "rolls",
+      "name": "🎲・rolls-and-flexes",
+      "parent": "game",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "rolls and flexes • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "trading",
+      "name": "🤝・trading",
+      "parent": "game",
+      "type": "forum",
+      "policy": "public",
+      "slowmode": 30,
+      "topic": "trading • Steal an RNG 🎲 | Keep it friendly. Follow #rules.",
+      "tags": [
+        "Selling",
+        "Buying",
+        "Offers",
+        "Completed"
+      ]
+    },
+    {
+      "key": "guides",
+      "name": "📚・strategies-and-guides",
+      "parent": "game",
+      "type": "forum",
+      "policy": "public",
+      "slowmode": 5,
+      "topic": "strategies and guides • Steal an RNG 🎲 | Keep it friendly. Follow #rules.",
+      "tags": [
+        "Beginner",
+        "Rebirth",
+        "Abilities",
+        "Raids"
+      ]
+    },
+    {
+      "key": "tier-list",
+      "name": "🏆・ability-tier-list",
+      "parent": "game",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "ability tier list • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "base-raids",
+      "name": "⚔️・base-raids",
+      "parent": "game",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "base raids • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "leaderboards",
+      "name": "🥇・leaderboards",
+      "parent": "game",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "leaderboards • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "lfg",
+      "name": "🔎・looking-for-group",
+      "parent": "game",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 10,
+      "topic": "looking for group • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "suggestions",
+      "name": "💡・suggestions",
+      "parent": "feedback",
+      "type": "text",
+      "policy": "public",
+      "slowmode": 60,
+      "topic": "suggestions • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "bugs",
+      "name": "🐛・bug-reports",
+      "parent": "feedback",
+      "type": "forum",
+      "policy": "public",
+      "slowmode": 30,
+      "topic": "bug reports • Steal an RNG 🎲 | Keep it friendly. Follow #rules.",
+      "tags": [
+        "Mobile",
+        "PC",
+        "Console",
+        "Gameplay",
+        "UI",
+        "Crash"
+      ]
+    },
+    {
+      "key": "report-player",
+      "name": "🚩・report-a-player",
+      "parent": "feedback",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "report a player • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "ticket-panel",
+      "name": "🎫・create-a-ticket",
+      "parent": "support-category",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "create a ticket • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "creator-applications",
+      "name": "📝・creator-applications",
+      "parent": "creators",
+      "type": "text",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "creator applications • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "creator-showcase",
+      "name": "🎥・creator-showcase",
+      "parent": "creators",
+      "type": "text",
+      "policy": "creator-post",
+      "slowmode": 0,
+      "topic": "creator showcase • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "creator-lounge",
+      "name": "⭐・creator-lounge",
+      "parent": "creators",
+      "type": "text",
+      "policy": "creator-private",
+      "slowmode": 0,
+      "topic": "creator lounge • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "lounge1",
+      "name": "🔊・Lounge 1",
+      "parent": "voice",
+      "type": "voice",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "Lounge 1 • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "lounge2",
+      "name": "🔊・Lounge 2",
+      "parent": "voice",
+      "type": "voice",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "Lounge 2 • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "grinding",
+      "name": "🎲・Grinding 🎲",
+      "parent": "voice",
+      "type": "voice",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "Grinding 🎲 • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "trading-voice",
+      "name": "🤝・Trading Hall",
+      "parent": "voice",
+      "type": "voice",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "Trading Hall • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "stage",
+      "name": "🎤・Event Stage",
+      "parent": "voice",
+      "type": "stage",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "Event Stage • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "afk",
+      "name": "💤・AFK",
+      "parent": "voice",
+      "type": "voice",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "AFK • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "create-voice",
+      "name": "➕ Create Voice",
+      "parent": "voice",
+      "type": "voice",
+      "policy": "public",
+      "slowmode": 0,
+      "topic": "➕ Create Voice • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "player-count",
+      "name": "🟢 Playing: —",
+      "parent": "voice",
+      "type": "voice",
+      "policy": "readonly",
+      "slowmode": 0,
+      "topic": "🟢 Playing: — • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "staff-chat",
+      "name": "🔒・staff-chat",
+      "parent": "staff",
+      "type": "text",
+      "policy": "staff",
+      "slowmode": 0,
+      "topic": "staff chat • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "staff-announcements",
+      "name": "📣・staff-announcements",
+      "parent": "staff",
+      "type": "text",
+      "policy": "staff",
+      "slowmode": 0,
+      "topic": "staff announcements • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "mod-logs",
+      "name": "🛡️・mod-logs",
+      "parent": "staff",
+      "type": "text",
+      "policy": "staff",
+      "slowmode": 0,
+      "topic": "mod logs • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "ticket-logs",
+      "name": "🎫・ticket-logs",
+      "parent": "staff",
+      "type": "text",
+      "policy": "staff",
+      "slowmode": 0,
+      "topic": "ticket logs • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "bot-logs",
+      "name": "🤖・bot-logs",
+      "parent": "staff",
+      "type": "text",
+      "policy": "staff",
+      "slowmode": 0,
+      "topic": "bot logs • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "join-leave-logs",
+      "name": "🚪・join-leave-logs",
+      "parent": "staff",
+      "type": "text",
+      "policy": "staff",
+      "slowmode": 0,
+      "topic": "join leave logs • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "message-logs",
+      "name": "📝・message-logs",
+      "parent": "staff",
+      "type": "text",
+      "policy": "staff",
+      "slowmode": 0,
+      "topic": "message logs • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "dev-notes",
+      "name": "🛠️・dev-notes",
+      "parent": "staff",
+      "type": "text",
+      "policy": "staff",
+      "slowmode": 0,
+      "topic": "dev notes • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    },
+    {
+      "key": "staff-voice",
+      "name": "🔊・Staff Voice",
+      "parent": "staff",
+      "type": "voice",
+      "policy": "staff",
+      "slowmode": 0,
+      "topic": "Staff Voice • Steal an RNG 🎲 | Keep it friendly. Follow #rules."
+    }
+  ],
+  "permissions": {
+    "start": [
+      {
+        "target": "everyone",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory"
+        ],
+        "deny": [
+          "SendMessages",
+          "CreatePublicThreads",
+          "CreatePrivateThreads"
+        ]
+      },
+      {
+        "target": "verified",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "AddReactions",
+          "UseApplicationCommands"
+        ],
+        "deny": [
+          "SendMessages",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "SendMessagesInThreads"
+        ]
+      },
+      {
+        "target": "owner",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "developer",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "admin",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "moderator",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "support",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "bot",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageChannels",
+          "ManageMessages",
+          "ManageThreads",
+          "MoveMembers",
+          "MentionEveryone"
+        ],
+        "deny": []
+      },
+      {
+        "target": "muted",
+        "allow": [],
+        "deny": [
+          "SendMessages",
+          "AddReactions",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "Speak",
+          "Connect"
+        ]
+      }
+    ],
+    "public": [
+      {
+        "target": "everyone",
+        "allow": [],
+        "deny": [
+          "ViewChannel"
+        ]
+      },
+      {
+        "target": "verified",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory"
+        ],
+        "deny": []
+      },
+      {
+        "target": "owner",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "developer",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "admin",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "moderator",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "support",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "bot",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageChannels",
+          "ManageMessages",
+          "ManageThreads",
+          "MoveMembers",
+          "MentionEveryone"
+        ],
+        "deny": []
+      },
+      {
+        "target": "muted",
+        "allow": [],
+        "deny": [
+          "SendMessages",
+          "AddReactions",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "Speak",
+          "Connect"
+        ]
+      }
+    ],
+    "readonly": [
+      {
+        "target": "everyone",
+        "allow": [],
+        "deny": [
+          "ViewChannel"
+        ]
+      },
+      {
+        "target": "verified",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "AddReactions",
+          "UseApplicationCommands"
+        ],
+        "deny": [
+          "SendMessages",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "SendMessagesInThreads"
+        ]
+      },
+      {
+        "target": "owner",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "developer",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "admin",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "moderator",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "support",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "bot",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageChannels",
+          "ManageMessages",
+          "ManageThreads",
+          "MoveMembers",
+          "MentionEveryone"
+        ],
+        "deny": []
+      },
+      {
+        "target": "muted",
+        "allow": [],
+        "deny": [
+          "SendMessages",
+          "AddReactions",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "Speak",
+          "Connect"
+        ]
+      }
+    ],
+    "staff": [
+      {
+        "target": "everyone",
+        "allow": [],
+        "deny": [
+          "ViewChannel"
+        ]
+      },
+      {
+        "target": "verified",
+        "allow": [],
+        "deny": []
+      },
+      {
+        "target": "owner",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "developer",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "admin",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "moderator",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "support",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "bot",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageChannels",
+          "ManageMessages",
+          "ManageThreads",
+          "MoveMembers",
+          "MentionEveryone"
+        ],
+        "deny": []
+      },
+      {
+        "target": "muted",
+        "allow": [],
+        "deny": [
+          "SendMessages",
+          "AddReactions",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "Speak",
+          "Connect"
+        ]
+      }
+    ],
+    "creator-private": [
+      {
+        "target": "everyone",
+        "allow": [],
+        "deny": [
+          "ViewChannel"
+        ]
+      },
+      {
+        "target": "verified",
+        "allow": [],
+        "deny": []
+      },
+      {
+        "target": "owner",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "developer",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "admin",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "moderator",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "support",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "bot",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageChannels",
+          "ManageMessages",
+          "ManageThreads",
+          "MoveMembers",
+          "MentionEveryone"
+        ],
+        "deny": []
+      },
+      {
+        "target": "muted",
+        "allow": [],
+        "deny": [
+          "SendMessages",
+          "AddReactions",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "Speak",
+          "Connect"
+        ]
+      },
+      {
+        "target": "creator",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD"
+        ]
+      }
+    ],
+    "creator-post": [
+      {
+        "target": "everyone",
+        "allow": [],
+        "deny": [
+          "ViewChannel"
+        ]
+      },
+      {
+        "target": "verified",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "AddReactions",
+          "UseApplicationCommands"
+        ],
+        "deny": [
+          "SendMessages",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "SendMessagesInThreads"
+        ]
+      },
+      {
+        "target": "owner",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "developer",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "admin",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "moderator",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "support",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "bot",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageChannels",
+          "ManageMessages",
+          "ManageThreads",
+          "MoveMembers",
+          "MentionEveryone"
+        ],
+        "deny": []
+      },
+      {
+        "target": "muted",
+        "allow": [],
+        "deny": [
+          "SendMessages",
+          "AddReactions",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "Speak",
+          "Connect"
+        ]
+      },
+      {
+        "target": "creator",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD"
+        ]
+      }
+    ],
+    "tickets": [
+      {
+        "target": "everyone",
+        "allow": [],
+        "deny": [
+          "ViewChannel"
+        ]
+      },
+      {
+        "target": "verified",
+        "allow": [],
+        "deny": []
+      },
+      {
+        "target": "owner",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "developer",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "admin",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "moderator",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "support",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "bot",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageChannels",
+          "ManageMessages",
+          "ManageThreads",
+          "MoveMembers",
+          "MentionEveryone"
+        ],
+        "deny": []
+      },
+      {
+        "target": "muted",
+        "allow": [],
+        "deny": [
+          "SendMessages",
+          "AddReactions",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "Speak",
+          "Connect"
+        ]
+      }
+    ],
+    "archive": [
+      {
+        "target": "everyone",
+        "allow": [],
+        "deny": [
+          "ViewChannel"
+        ]
+      },
+      {
+        "target": "verified",
+        "allow": [],
+        "deny": []
+      },
+      {
+        "target": "owner",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "developer",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "admin",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "moderator",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "support",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageMessages",
+          "ManageThreads"
+        ],
+        "deny": []
+      },
+      {
+        "target": "bot",
+        "allow": [
+          "ViewChannel",
+          "ReadMessageHistory",
+          "SendMessages",
+          "AddReactions",
+          "AttachFiles",
+          "EmbedLinks",
+          "UseApplicationCommands",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "Connect",
+          "Speak",
+          "UseVAD",
+          "ManageChannels",
+          "ManageMessages",
+          "ManageThreads",
+          "MoveMembers",
+          "MentionEveryone"
+        ],
+        "deny": []
+      },
+      {
+        "target": "muted",
+        "allow": [],
+        "deny": [
+          "SendMessages",
+          "AddReactions",
+          "SendMessagesInThreads",
+          "CreatePublicThreads",
+          "CreatePrivateThreads",
+          "Speak",
+          "Connect"
+        ]
+      }
+    ]
+  },
+  "panels": [
+    {
+      "key": "rules",
+      "channel": "rules",
+      "title": "🎃 Welcome to Steal an RNG — play fair, roll HUGE!",
+      "description": "**1.** Be kind. No harassment, hate speech, slurs, threats, or targeted bullying.\n\n**2.** Keep everything safe for the community: no explicit content, gore, doxxing, or sharing private details.\n\n**3.** No scams, fake giveaways, account sales, or off-platform item sales. Trade at your own risk; staff never ask for passwords.\n\n**4.** No exploits, cheating instructions, exploit links, or bypass guides. Report vulnerabilities privately in a ticket.\n\n**5.** No spam, excessive mentions, disruptive audio, or unsolicited advertising and Discord invites.\n\n**6.** Use English in main channels so everyone can join in. Respect all cultures and backgrounds.\n\n**7.** Follow channel topics. Keep trading in trading and support in tickets. Never post private receipts in public.\n\n**8.** Respect staff decisions. Appeal calmly through an Appeal ticket; never impersonate staff or stefunkwn.\n\n**9.** Follow Discord Community Guidelines and Roblox Terms of Use. No real-money or Robux gambling.\n\n**10.** Play fair, have fun, and protect your account. Use official links and report suspicious DMs.",
+      "buttons": [
+        {
+          "id": "verify",
+          "label": "✅ I agree — verify"
+        }
+      ]
+    },
+    {
+      "key": "verify",
+      "channel": "verify",
+      "title": "✅ Unlock the community",
+      "description": "Read #rules, then accept below. Verification means you agree to the rules. This does not link your Roblox account.",
+      "buttons": [
+        {
+          "id": "verify",
+          "label": "✅ Accept rules & verify"
+        }
+      ]
+    },
+    {
+      "key": "faq",
+      "channel": "faq",
+      "title": "🎲 New raider FAQ",
+      "description": "**How do I roll?**\nJoin the game and use its Roll control to collect fighters and abilities. Check the in-game UI for current costs and luck boosts.\n\n**What are the rarities?**\nStreet → Forged → Awakened → Ascended → Legendary → Mythic → Divine → Celestial → Forbidden → Absolute → OMEGA → Admin-only. Discord ranks measure chat activity, not in-game ownership.\n\n**How does stealing work?**\nRaid unlocked bases and try to steal units while fighting defenders. Check the in-game prompts for carrying and escape controls.\n\n**How do I lock my base?**\nUse the base lock control. Lock duration and cooldown appear in the game; do not trust offers to bypass protection.\n\n**What is new-player protection?**\nNew players have protection while learning. Your in-game indicator is the authority on when it ends.\n\n**Why rebirth?**\nRebirths unlock multipliers and perks such as Double Dash, Double Jump, Ground Pound, Blink, and Triple Dash. Read the confirmation screen for what resets.\n\n**How do codes work?**\nOpen the game’s redeem-code UI, enter an active code exactly, and confirm. /codes lists developer-confirmed codes; none are invented.\n\n**When are events?**\nWitching Hour runs hourly in game. Weather and KONG / STEF vs GODZILLA events are announced here when confirmed. Exact timezone and limited-event dates: [DEV TO CONFIRM].\n\n**How do I report a bug?**\nUse /bugreport for non-sensitive bugs. Include platform, steps, expected/actual results, and a screenshot link. Exploits and personal information belong in private tickets."
+    },
+    {
+      "key": "guide",
+      "channel": "server-guide",
+      "title": "🧭 Your first five minutes",
+      "description": "**1.** Accept #rules to unlock the server.\n**2.** Pick platform, region, and pings in #roles.\n**3.** Say hi in #introductions.\n**4.** Check #codes and #patch-notes, then jump into the game!\n**5.** Share your luck in #rolls-and-flexes; find a squad in #looking-for-group.\n\n🎃 Halloween is on: zombies, candy corn, and Witching Hour energy.\n🎫 Need help? #create-a-ticket. Staff never ask for passwords.\n\n[Play Steal an RNG](https://www.roblox.com/games/89881575589403) • Developed by **stefunkwn**"
+    },
+    {
+      "key": "events",
+      "channel": "events",
+      "title": "🎃 Event radar",
+      "description": "**👹 Witching Hour:** every hour in game — zombies and candy corn! Hourly Discord pings are OFF by default.\n**🌦️ Weather:** Downpour • Blizzard • Sandstorm • Sakura • Aurora • Meteor. Watch the in-game alerts.\n**🦍 KONG the Gorilla King:** world-boss appearances announced when confirmed.\n**🦖 STEF vs GODZILLA:** cinematic chaos with the Stef Army. Date/time: **[DEV TO CONFIRM]**.\n\nChoose Event, Boss, and Witching Hour pings in #roles. Only staff announcements are official."
+    },
+    {
+      "key": "tiers",
+      "channel": "tier-list",
+      "title": "💎 From Street to OMEGA",
+      "description": "**1. Street** — `#80858F`\n**2. Forged** — `#CB7948`\n**3. Awakened** — `#F25C78`\n**4. Ascended** — `#9855E8`\n**5. Legendary** — `#FFC83C`\n**6. Mythic** — `#BE1648`\n**7. Divine** — `#FFF0BD`\n**8. Celestial** — `#45DEFF`\n**9. Forbidden** — `#F1F1FF`\n**10. Absolute** — `#FFD1ED`\n**11. OMEGA** — `#FF2878`\n**12. Admin-only** — `#FF3030`\n\n**Ability spotlight:** Apotheosis • Black Sun • Big Bang • Worldbreaker • Star Emperor • Time Collapse • Void Monarch • Armageddon • Infinity • Godslayer • The Creator.\n**Admin powers:** Ban Hammer • Nuke • Orbital Strike • Event Horizon • Server Shutdown.\n\n[DEV TO CONFIRM] Ability-to-rarity assignments are intentionally unassigned. Chat ranks do not grant game powers."
+    },
+    {
+      "key": "codes",
+      "channel": "codes",
+      "title": "🔑 Official redeem codes",
+      "description": "Use **/codes** for the current active list. Staff publish only confirmed codes. No active codes have been supplied yet. Never enter your password on a “code generator.”"
+    },
+    {
+      "key": "leaderboards",
+      "channel": "leaderboards",
+      "title": "🏆 The raid hall of fame",
+      "description": "**Kills / Cash / Steals:** [GAME DATA NOT CONNECTED]. Public Roblox player counts cannot provide these stats. The developer can connect a trusted weekly export; see README.\n\nFor community chat XP use **/leaderboard**. Game stats and chat XP are separate."
+    },
+    {
+      "key": "ticket-panel",
+      "channel": "ticket-panel",
+      "title": "🎫 Need a hand, raider?",
+      "description": "Choose a ticket type. Only you, Support, moderators, and administrators can view your ticket. One open ticket per person per type.\n\nInclude useful details; never send passwords, full payment card numbers, or login cookies.",
+      "buttons": [
+        {
+          "id": "ticket:general",
+          "label": "🎟️ General Help"
+        },
+        {
+          "id": "ticket:bug",
+          "label": "🧪 Bug Report"
+        },
+        {
+          "id": "ticket:player",
+          "label": "🛡️ Player Report"
+        },
+        {
+          "id": "ticket:purchase",
+          "label": "🛍️ Purchase / Robux Issue"
+        },
+        {
+          "id": "ticket:creator",
+          "label": "🎥 Creator Application"
+        },
+        {
+          "id": "ticket:appeal",
+          "label": "⚖️ Appeal"
+        }
+      ]
+    },
+    {
+      "key": "report-player",
+      "channel": "report-player",
+      "title": "🛡️ Report privately",
+      "description": "Use the Player Report button. Include username/user ID, approximate time, and evidence links. No public callouts.",
+      "buttons": [
+        {
+          "id": "ticket:player",
+          "label": "🛡️ Player Report"
+        }
+      ]
+    },
+    {
+      "key": "creator-applications",
+      "channel": "creator-applications",
+      "title": "🎥 Join the creator squad",
+      "description": "Share your channel links, Roblox username, audience, and a sample Steal an RNG clip through a private application. Requirements: [DEV TO CONFIRM].",
+      "buttons": [
+        {
+          "id": "ticket:creator",
+          "label": "🎥 Creator Application"
+        }
+      ]
+    },
+    {
+      "key": "trading-rules",
+      "channel": "trading",
+      "title": "🤝 Trading house rules",
+      "description": "Use Selling / Buying / Offers tags and mark Completed when done. No scams, real-money trades, account sales, or gambling. Confirm every item in game before accepting. Never trust a “middleman” DM. Staff cannot promise item recovery."
+    },
+    {
+      "key": "roles-pings",
+      "channel": "roles",
+      "title": "📣 Choose your pings",
+      "description": "Tap to toggle a role. Tap again to remove it. All choices are optional.",
+      "buttons": [
+        {
+          "id": "role:update-pings",
+          "label": "📢 Update Pings"
+        },
+        {
+          "id": "role:event-pings",
+          "label": "🎉 Event Pings"
+        },
+        {
+          "id": "role:giveaway-pings",
+          "label": "🎁 Giveaway Pings"
+        },
+        {
+          "id": "role:code-pings",
+          "label": "🔑 Code Pings"
+        },
+        {
+          "id": "role:witching-pings",
+          "label": "👹 Witching Hour Pings"
+        },
+        {
+          "id": "role:boss-pings",
+          "label": "🦍 Boss Pings"
+        }
+      ]
+    },
+    {
+      "key": "roles-platform",
+      "channel": "roles",
+      "title": "🎮 What do you play on?",
+      "description": "Tap to toggle a role. Tap again to remove it. All choices are optional.",
+      "buttons": [
+        {
+          "id": "role:pc",
+          "label": "💻 PC"
+        },
+        {
+          "id": "role:mobile",
+          "label": "📱 Mobile"
+        },
+        {
+          "id": "role:console",
+          "label": "🎮 Console"
+        }
+      ]
+    },
+    {
+      "key": "roles-region",
+      "channel": "roles",
+      "title": "🌍 Find your squad",
+      "description": "Tap to toggle a role. Tap again to remove it. All choices are optional.",
+      "buttons": [
+        {
+          "id": "role:na",
+          "label": "NA"
+        },
+        {
+          "id": "role:eu",
+          "label": "EU"
+        },
+        {
+          "id": "role:asia",
+          "label": "ASIA"
+        },
+        {
+          "id": "role:oce",
+          "label": "OCE"
+        },
+        {
+          "id": "role:sa",
+          "label": "SA"
+        }
+      ]
+    }
+  ],
+  "selfRoleGroups": [
+    {
+      "key": "pings",
+      "title": "📣 Choose your pings",
+      "roles": [
+        "update-pings",
+        "event-pings",
+        "giveaway-pings",
+        "code-pings",
+        "witching-pings",
+        "boss-pings"
+      ]
+    },
+    {
+      "key": "platform",
+      "title": "🎮 What do you play on?",
+      "roles": [
+        "pc",
+        "mobile",
+        "console"
+      ]
+    },
+    {
+      "key": "region",
+      "title": "🌍 Find your squad",
+      "roles": [
+        "na",
+        "eu",
+        "asia",
+        "oce",
+        "sa"
+      ]
+    }
+  ],
+  "ticketTypes": [
+    {
+      "key": "general",
+      "label": "🎟️ General Help"
+    },
+    {
+      "key": "bug",
+      "label": "🧪 Bug Report"
+    },
+    {
+      "key": "player",
+      "label": "🛡️ Player Report"
+    },
+    {
+      "key": "purchase",
+      "label": "🛍️ Purchase / Robux Issue"
+    },
+    {
+      "key": "creator",
+      "label": "🎥 Creator Application"
+    },
+    {
+      "key": "appeal",
+      "label": "⚖️ Appeal"
+    }
+  ],
+  "tickets": {
+    "maxTranscriptMessages": 10000,
+    "deleteAfterCloseSeconds": 10
+  },
+  "leveling": {
+    "xpMin": 15,
+    "xpMax": 25,
+    "cooldownSeconds": 60,
+    "xpPerLevelSquared": 100,
+    "ranks": [
+      {
+        "role": "street",
+        "level": 0
+      },
+      {
+        "role": "forged",
+        "level": 5
+      },
+      {
+        "role": "awakened",
+        "level": 10
+      },
+      {
+        "role": "ascended",
+        "level": 15
+      },
+      {
+        "role": "legendary",
+        "level": 20
+      },
+      {
+        "role": "mythic",
+        "level": 30
+      },
+      {
+        "role": "divine",
+        "level": 40
+      },
+      {
+        "role": "celestial",
+        "level": 50
+      },
+      {
+        "role": "forbidden",
+        "level": 65
+      },
+      {
+        "role": "absolute",
+        "level": 80
+      },
+      {
+        "role": "omega",
+        "level": 100
+      }
+    ]
+  },
+  "features": {
+    "autoThreads": [
+      "media",
+      "rolls"
+    ],
+    "imageOnly": [
+      "media"
+    ],
+    "witchingHourReminders": false,
+    "weeklyGameLeaderboard": false,
+    "logMessageContent": true
+  },
+  "events": {
+    "witching": {
+      "title": "👹 Witching Hour",
+      "ping": "witching-pings"
+    },
+    "boss": {
+      "title": "🦍 KONG world boss",
+      "ping": "boss-pings"
+    },
+    "weather": {
+      "title": "🌦️ Weather event",
+      "ping": "event-pings"
+    },
+    "godzilla": {
+      "title": "🦖 STEF vs GODZILLA",
+      "ping": "event-pings"
+    },
+    "update": {
+      "title": "📢 Game update",
+      "ping": "update-pings"
+    }
+  },
+  "automod": {
+    "enabled": true,
+    "inviteKeywords": [
+      "*discord.gg/*",
+      "*discord.com/invite/*"
+    ],
+    "scamKeywords": [
+      "*free robux*",
+      "*dm me for cheap items*",
+      "*free nitro*"
+    ],
+    "mentionLimit": 8,
+    "blockSlursWithDiscordPresets": true
+  },
+  "onboarding": {
+    "defaultChannels": [
+      "welcome",
+      "rules",
+      "verify",
+      "roles",
+      "faq",
+      "server-guide"
+    ],
+    "questions": [
+      {
+        "key": "pings",
+        "title": "📣 Choose your pings",
+        "roles": [
+          "update-pings",
+          "event-pings",
+          "giveaway-pings",
+          "code-pings",
+          "witching-pings",
+          "boss-pings"
+        ]
+      },
+      {
+        "key": "platform",
+        "title": "🎮 What do you play on?",
+        "roles": [
+          "pc",
+          "mobile",
+          "console"
+        ]
+      },
+      {
+        "key": "region",
+        "title": "🌍 Find your squad",
+        "roles": [
+          "na",
+          "eu",
+          "asia",
+          "oce",
+          "sa"
+        ]
+      }
+    ],
+    "welcomeChannels": [
+      {
+        "channel": "rules",
+        "description": "Accept the rules to unlock the server",
+        "emoji": "✅"
+      },
+      {
+        "channel": "roles",
+        "description": "Pick your platform and pings",
+        "emoji": "🎮"
+      },
+      {
+        "channel": "faq",
+        "description": "Learn to roll, raid, and rebirth",
+        "emoji": "🎲"
+      }
+    ]
+  },
+  "copy": {
+    "welcome": "Welcome {user} to Steal an RNG! 🎃 Read #rules, verify, and choose your pings in #roles. Your OMEGA arc starts here!",
+    "dm": "Welcome to Steal an RNG 🎲! Read the server rules and verify to join the squad. Never share your password. Roll big, raid fair, and enjoy Halloween! 🎃"
+  },
+  "presence": [
+    "Rolling for OMEGA...",
+    "Stealing bases",
+    "Watching the Witching Hour"
+  ],
+  "sticky": {
+    "trading": "🤝 Trade safely: no scams, account sales, real-money trades, or gambling. Use tags and mark Completed. Never share passwords."
+  }
+}
